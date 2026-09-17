@@ -1,0 +1,16 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+sqlalchemy==2.0.43
+pydantic-settings==2.10.1
+python-multipart==0.0.20
+argon2-cffi==25.1.0
+PyJWT==2.10.1
+cryptography==45.0.6
+httpx==0.28.1
+pytest==8.4.1
+aiosqlite==0.21.0
+web3==7.13.0
+alembic==1.16.4
+psycopg[binary]==3.2.10
+boto3==1.40.30
+Pillow==11.3.0

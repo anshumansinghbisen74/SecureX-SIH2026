@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+*_private_key*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Build output and dependency caches
+build/
+.dart_tool/
+.gradle/
+**/node_modules/
+**/.pytest_cache/
+**/__pycache__/
+**/artifacts/
+**/cache/
+
+# IDE and machine-local metadata
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+local.properties
+frontend/android/local.properties
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
